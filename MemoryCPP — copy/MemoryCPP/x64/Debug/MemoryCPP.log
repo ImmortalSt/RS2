@@ -1,0 +1,47 @@
+﻿  MemoryCPP.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xstring(2388,23): warning C4244: аргумент: преобразование "_Ty" в "const _Elem", возможна потеря данных
+          with
+          [
+              _Ty=TCHAR
+          ]
+          and
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xstring(2399): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_Ty*>(_Iter,const _Iter,std::input_iterator_tag)"
+          with
+          [
+              _Ty=TCHAR,
+              _Iter=TCHAR *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xstring(2399): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_Ty*>(_Iter,const _Iter,std::input_iterator_tag)"
+          with
+          [
+              _Ty=TCHAR,
+              _Iter=TCHAR *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xstring(2379): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_Ty*>(const _Iter,const _Iter,std::forward_iterator_tag)"
+          with
+          [
+              _Ty=TCHAR,
+              _Iter=TCHAR *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xstring(2379): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_Ty*>(const _Iter,const _Iter,std::forward_iterator_tag)"
+          with
+          [
+              _Ty=TCHAR,
+              _Iter=TCHAR *
+          ]
+C:\Users\Comp\source\repos\MemoryCPP — копия\MemoryCPP\MemoryCPP.cpp(43): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<TCHAR*,void>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Iter=TCHAR *,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\Comp\source\repos\MemoryCPP — копия\MemoryCPP\MemoryCPP.cpp(43): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<TCHAR*,void>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Iter=TCHAR *,
+              _Alloc=std::allocator<char>
+          ]
+  MemoryCPP.vcxproj -> C:\Users\Comp\source\repos\MemoryCPP — копия\x64\Debug\MemoryCPP.exe

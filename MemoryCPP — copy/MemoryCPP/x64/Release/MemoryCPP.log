@@ -1,0 +1,68 @@
+﻿  MemoryCPP.cpp
+C:\Users\Comp\source\repos\MemoryCPP\MemoryCPP\MemoryCPP.cpp(21,35): warning C4311: приведение типов: усечение указателя из "HMODULE" в "DWORD"
+C:\Users\Comp\source\repos\MemoryCPP\MemoryCPP\MemoryCPP.cpp(21,35): warning C4302: приведение типов: усечение из "HMODULE" к "DWORD"
+C:\Users\Comp\source\repos\MemoryCPP\MemoryCPP\MemoryCPP.cpp(65,1): warning C4312: приведение типов: преобразование из "int" в "void **" большего размера
+C:\Users\Comp\source\repos\MemoryCPP\MemoryCPP\MemoryCPP.cpp(69,1): warning C4312: приведение типов: преобразование из "int" в "void **" большего размера
+C:\Users\Comp\source\repos\MemoryCPP\MemoryCPP\MemoryCPP.cpp(88,20): warning C4477: "printf": в строке форматирования "%x" требуется аргумент типа "unsigned int", но вариативный аргумент "1" имеет тип "BYTE *"
+C:\Users\Comp\source\repos\MemoryCPP\MemoryCPP\MemoryCPP.cpp(88,20): warning C4313: printf: конфликт "%x" в строке формата с аргументом 1 типа "BYTE *"
+C:\Users\Comp\source\repos\MemoryCPP\MemoryCPP\MemoryCPP.cpp(88,20): warning C4477: "printf": в строке форматирования "%x" требуется аргумент типа "unsigned int", но вариативный аргумент "3" имеет тип "WCHAR *"
+C:\Users\Comp\source\repos\MemoryCPP\MemoryCPP\MemoryCPP.cpp(88,20): warning C4313: printf: конфликт "%x" в строке формата с аргументом 3 типа "WCHAR *"
+C:\Users\Comp\source\repos\MemoryCPP\MemoryCPP\MemoryCPP.cpp(103,63): warning C4311: приведение типов: усечение указателя из "HMODULE" в "DWORD"
+C:\Users\Comp\source\repos\MemoryCPP\MemoryCPP\MemoryCPP.cpp(103,63): warning C4302: приведение типов: усечение из "HMODULE" к "DWORD"
+C:\Users\Comp\source\repos\MemoryCPP\MemoryCPP\MemoryCPP.cpp(63,1): warning C4312: приведение типов: преобразование из "int" в "LPVOID *" большего размера
+C:\Users\Comp\source\repos\MemoryCPP\MemoryCPP\MemoryCPP.cpp(73): message : выполняется компиляция ссылки на экземпляр шаблон функции "T Read<DWORD>(int)"
+          with
+          [
+              T=DWORD
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xstring(2388,23): warning C4244: аргумент: преобразование "_Ty" в "const _Elem", возможна потеря данных
+          with
+          [
+              _Ty=TCHAR
+          ]
+          and
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xstring(2399): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_Ty*>(_Iter,const _Iter,std::input_iterator_tag)"
+          with
+          [
+              _Ty=TCHAR,
+              _Iter=TCHAR *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xstring(2399): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_Ty*>(_Iter,const _Iter,std::input_iterator_tag)"
+          with
+          [
+              _Ty=TCHAR,
+              _Iter=TCHAR *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xstring(2379): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_Ty*>(const _Iter,const _Iter,std::forward_iterator_tag)"
+          with
+          [
+              _Ty=TCHAR,
+              _Iter=TCHAR *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xstring(2379): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_Ty*>(const _Iter,const _Iter,std::forward_iterator_tag)"
+          with
+          [
+              _Ty=TCHAR,
+              _Iter=TCHAR *
+          ]
+C:\Users\Comp\source\repos\MemoryCPP\MemoryCPP\MemoryCPP.cpp(40): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<TCHAR*,void>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Iter=TCHAR *,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\Comp\source\repos\MemoryCPP\MemoryCPP\MemoryCPP.cpp(40): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<TCHAR*,void>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Iter=TCHAR *,
+              _Alloc=std::allocator<char>
+          ]
+  Создание кода
+  5 of 124 functions ( 4.0%) were compiled, the rest were copied from previous compilation.
+    4 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  MemoryCPP.vcxproj -> C:\Users\Comp\source\repos\MemoryCPP\x64\Release\MemoryCPP.exe
